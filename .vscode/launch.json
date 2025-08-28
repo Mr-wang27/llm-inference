@@ -1,0 +1,20 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CUDA Debug (Nsight)",
+      "type": "cuda-gdb",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/bin/embedding",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "env": {},
+      "console": "integratedTerminal",
+      "cudaPath": "/usr/local/cuda",  // 根据你的安装位置调整
+      "device": 0,                    // 指定 GPU 设备编号，默认即可
+      "launchTimeout": 30             // Nsight 启动调试器前的最大等待时间
+    }
+  ]
+}

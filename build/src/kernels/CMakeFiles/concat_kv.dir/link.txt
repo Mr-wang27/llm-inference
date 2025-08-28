@@ -1,0 +1,3 @@
+/usr/bin/ar qc ../../lib/libconcat_kv.a CMakeFiles/concat_kv.dir/concat_past_kv.cu.o
+/usr/bin/ar q ../../lib/libconcat_kv.a CMakeFiles/concat_kv.dir/cmake_device_link.o
+/usr/bin/ranlib ../../lib/libconcat_kv.a

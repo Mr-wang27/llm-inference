@@ -1,0 +1,1 @@
+  -L/usr/local/cuda/lib64  -L"/usr/local/cuda/targets/x86_64-linux/lib/stubs"  -L"/usr/local/cuda/targets/x86_64-linux/lib"  -lLlamaCtxAttn, -lLlamaffn, -lllamaweights, -lbuild_casual_mask, -lcal_paddingoffset, -lfused_addresidual_norm, -ladd_residual, -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

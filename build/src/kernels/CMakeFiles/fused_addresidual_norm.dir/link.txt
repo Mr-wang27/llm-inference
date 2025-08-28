@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libfused_addresidual_norm.a CMakeFiles/fused_addresidual_norm.dir/fused_addresidual_norm.cu.o
+/usr/bin/ranlib ../../lib/libfused_addresidual_norm.a

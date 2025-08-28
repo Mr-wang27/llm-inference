@@ -1,0 +1,1 @@
+# CalPaddingoffset中的cum_seqlens(累积句子长度)是用来干什么用的？

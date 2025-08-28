@@ -1,0 +1,1 @@
+ -lcudart -lcudadevrt ../../lib/libfused_addresidual_norm.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

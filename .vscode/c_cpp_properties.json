@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/llm_inference/src/utils",
+                "/home/llm_inference",
+                "/usr/local/cuda/include" // 添加 CUDA 的 include 路径
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++", // 指定编译器路径
+            "cStandard": "c17", // 设置 C 标准
+            "cppStandard": "c++17", // 设置 C++ 标准
+            "intelliSenseMode": "linux-gcc-x64" // IntelliSense 模式
+        }
+    ],
+    "version": 4
+}

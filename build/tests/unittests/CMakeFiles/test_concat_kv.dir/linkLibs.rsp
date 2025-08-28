@@ -1,0 +1,1 @@
+ -lcudart -lcudadevrt ../../lib/libconcat_kv.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 

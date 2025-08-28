@@ -1,0 +1,1 @@
+ -lcudart -lcudadevrt ../../lib/libfused_transpose_and_remv_pad.a -lcudadevrt -lcudart_static -lrt -lpthread -ldl 
