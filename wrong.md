@@ -1,6 +1,6 @@
 # 
-embedding kernel 不知道对不对
-**qkv_bias_and_RoPE也不对，与他的结果一样。**
+embedding kernel 精度？
+**qkv_bias_and_RoPE精度？。**
 
 
 
