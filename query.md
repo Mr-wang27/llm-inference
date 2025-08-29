@@ -1,1 +1,2 @@
-# CalPaddingoffset中的cum_seqlens(累积句子长度)是用来干什么用的？
+# CalPaddingoffset中的cum_seqlens(累积句子长度)用于在使用batch gemm 计算attention时，对不同长度的seq进行padding,然后在attention计算完毕之后执行remove padding操作。
+# 这样做的目的时为了减少在计算非attention部分的计算量，从而增加计算速度，提升性能，同时能够在一定程度上减少对显存的开销。
